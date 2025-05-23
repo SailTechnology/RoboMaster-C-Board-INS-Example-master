@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 "c_board_standard_robot\startup_stm32f407xx.o"
 "..\Drivers\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
 "c_board_standard_robot\main.o"
@@ -15,6 +15,7 @@
 "c_board_standard_robot\ins_task.o"
 "c_board_standard_robot\receiver_task.o"
 "c_board_standard_robot\control_task.o"
+"c_board_standard_robot\command_task.o"
 "c_board_standard_robot\bsp_dwt.o"
 "c_board_standard_robot\bsp_pwm.o"
 "c_board_standard_robot\bmi088driver.o"
@@ -50,7 +51,7 @@
 "c_board_standard_robot\cmsis_os.o"
 "c_board_standard_robot\heap_4.o"
 "c_board_standard_robot\port.o"
---library_type=microlib --strict --scatter "C_Board_Standard_Robot\C_Board_Standard_Robot.sct"
+--strict --scatter "C_Board_Standard_Robot\C_Board_Standard_Robot.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "C_Board_Standard_Robot.map" -o C_Board_Standard_Robot\C_Board_Standard_Robot.axf

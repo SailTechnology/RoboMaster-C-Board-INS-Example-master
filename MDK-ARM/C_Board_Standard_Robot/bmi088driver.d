@@ -1,6 +1,6 @@
 c_board_standard_robot\bmi088driver.o: ..\Components\Devices\BMI088driver.c
 c_board_standard_robot\bmi088driver.o: ..\Components\Devices\BMI088driver.h
-c_board_standard_robot\bmi088driver.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+c_board_standard_robot\bmi088driver.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 c_board_standard_robot\bmi088driver.o: ../Inc/main.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 c_board_standard_robot\bmi088driver.o: ../Inc/stm32f4xx_hal_conf.h
@@ -16,7 +16,7 @@ c_board_standard_robot\bmi088driver.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-c_board_standard_robot\bmi088driver.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+c_board_standard_robot\bmi088driver.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -36,4 +36,4 @@ c_board_standard_robot\bmi088driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32
 c_board_standard_robot\bmi088driver.o: ..\Components\Devices\BMI088reg.h
 c_board_standard_robot\bmi088driver.o: ..\Components\Devices\BMI088Middleware.h
 c_board_standard_robot\bmi088driver.o: ../Bsp/bsp_dwt.h
-c_board_standard_robot\bmi088driver.o: F:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+c_board_standard_robot\bmi088driver.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

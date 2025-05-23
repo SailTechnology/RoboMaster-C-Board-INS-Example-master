@@ -1,7 +1,7 @@
 c_board_standard_robot\freertos.o: ../Src/freertos.c
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-c_board_standard_robot\freertos.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
-c_board_standard_robot\freertos.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+c_board_standard_robot\freertos.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+c_board_standard_robot\freertos.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 c_board_standard_robot\freertos.o: ../Inc/FreeRTOSConfig.h
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -46,13 +46,14 @@ c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/in
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 c_board_standard_robot\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+c_board_standard_robot\freertos.o: ../MDK-ARM/command_task.h
 c_board_standard_robot\freertos.o: ../Application/ins_task.h
 c_board_standard_robot\freertos.o: ../Components/Devices/BMI088driver.h
 c_board_standard_robot\freertos.o: ../Components/Algorithm/QuaternionEKF.h
 c_board_standard_robot\freertos.o: ../Components/kalman_filter.h
 c_board_standard_robot\freertos.o: ../Components/Algorithm/Include/arm_math.h
 c_board_standard_robot\freertos.o: ../Drivers/CMSIS/Include/core_cm4.h
-c_board_standard_robot\freertos.o: F:\Keil5\ARM\ARMCC\Bin\..\include\string.h
-c_board_standard_robot\freertos.o: F:\Keil5\ARM\ARMCC\Bin\..\include\math.h
-c_board_standard_robot\freertos.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+c_board_standard_robot\freertos.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+c_board_standard_robot\freertos.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+c_board_standard_robot\freertos.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 c_board_standard_robot\freertos.o: ../Application/Receiver_task.h

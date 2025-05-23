@@ -26,6 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "command_task.h"
 
 #include "ins_task.h"
 #include "Receiver_task.h"
@@ -226,8 +227,14 @@ void StartControlTask(void const * argument)
   for(;;)
   {
 		
+    Command_Task_Init();
+    const TickType_t period = pdMS_TO_TICKS(2);   // 2 ms ����
+    TickType_t last_wake = xTaskGetTickCount();
 
-    osDelay(1);
+    for (;;) {
+        Command_Task_Loop();
+        vTaskDelayUntil(&last_wake, period);
+    }
   }
   /* USER CODE END StartControlTask */
 }

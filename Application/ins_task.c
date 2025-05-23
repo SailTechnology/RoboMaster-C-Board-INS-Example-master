@@ -51,9 +51,9 @@ void INS_Init(void)
 
 void UART_Task(void)
 {
-			char msg[100];
-		//snprintf(msg, sizeof(msg), "Yaw: %.2f, Roll: %.2f, Pitch: %.2f, TotalYaw: %.2f\r\n",QEKF_INS.Yaw, QEKF_INS.Pitch, QEKF_INS.Roll, QEKF_INS.YawTotalAngle);
-		snprintf(msg, sizeof(msg), "%i, %i, %i, %i, %i, %i, %i, %i\r\n",RC_Throttle, RC_Yaw, RC_Pitch, RC_Roll, RC_Arm, RC_Kill,RC_Lost,RC_Throttle_Manual);
+			char msg[1000];
+		snprintf(msg, sizeof(msg), "Yaw: %.2f, Roll: %.2f, Pitch: %.2f, TotalYaw: %.2f\r\n",QEKF_INS.Yaw, QEKF_INS.Pitch, QEKF_INS.Roll, QEKF_INS.YawTotalAngle);
+		//snprintf(msg, sizeof(msg), "%i, %i, %i, %i, %i, %i, %i, %i\r\n",RC_Throttle, RC_Yaw, RC_Pitch, RC_Roll, RC_Arm, RC_Kill,RC_Lost,RC_Throttle_Manual);
 
 		HAL_UART_Transmit(&huart1, (uint8_t *)msg, strlen(msg), HAL_MAX_DELAY);
 		//extern int Throttle,Yaw,Pitch,Roll,Arm,Kill;
@@ -111,8 +111,8 @@ void INS_Task(void)
 
         // 获取最终数据
         INS.Yaw = QEKF_INS.Yaw;
-        INS.Pitch = QEKF_INS.Pitch;
-        INS.Roll = QEKF_INS.Roll;
+        INS.Pitch = QEKF_INS.Roll;
+        INS.Roll = QEKF_INS.Pitch;
         INS.YawTotalAngle = QEKF_INS.YawTotalAngle;
     }
 

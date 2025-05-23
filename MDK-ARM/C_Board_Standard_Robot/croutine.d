@@ -1,7 +1,7 @@
 c_board_standard_robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 c_board_standard_robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-c_board_standard_robot\croutine.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
-c_board_standard_robot\croutine.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+c_board_standard_robot\croutine.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+c_board_standard_robot\croutine.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 c_board_standard_robot\croutine.o: ../Inc/FreeRTOSConfig.h
 c_board_standard_robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 c_board_standard_robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

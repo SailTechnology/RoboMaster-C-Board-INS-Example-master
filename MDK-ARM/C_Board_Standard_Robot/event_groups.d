@@ -1,8 +1,8 @@
 c_board_standard_robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-c_board_standard_robot\event_groups.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+c_board_standard_robot\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 c_board_standard_robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-c_board_standard_robot\event_groups.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
-c_board_standard_robot\event_groups.o: F:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+c_board_standard_robot\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+c_board_standard_robot\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 c_board_standard_robot\event_groups.o: ../Inc/FreeRTOSConfig.h
 c_board_standard_robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 c_board_standard_robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

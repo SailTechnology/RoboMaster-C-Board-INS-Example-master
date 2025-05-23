@@ -32,6 +32,8 @@
 #include "bsp_dwt.h"
 #include "Receiver_task.h"
 #include "Control_task.h"
+#include "command_task.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,14 +104,19 @@ int main(void)
   MX_USART3_UART_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-		Motor_init();
+  //Motor_cali();
+		//Motor_init();
+		HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_SET); // À­µÍ
 
 
+    Command_Task_Init();
     DWT_Init(168);
 
     while (BMI088_init(&hspi1, 1) != BMI088_NO_ERROR);
 		sbus_init();
-		
+		HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET); // À­µÍ
+		HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET); // À­µÍ
+
 	
   /* USER CODE END 2 */
 
